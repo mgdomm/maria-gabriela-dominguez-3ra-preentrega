@@ -1,0 +1,21 @@
+footer {
+    width: 100%;
+    height: auto;
+}
+.footer-clases {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    padding: 0;
+    margin: 0;
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.iconos-redes{
+    margin-bottom: 0;
+    padding: 0;
+}

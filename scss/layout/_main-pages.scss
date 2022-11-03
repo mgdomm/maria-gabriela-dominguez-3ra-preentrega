@@ -1,0 +1,50 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+    }
+    div {
+        max-width: 2000px;
+    }
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+   
+}
+.container {
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: auto auto; 
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+
+.location-listing{
+    width: 100%;
+}
+
+.location-img img {
+    width: 250px;
+    height: auto;
+    object-fit: fill;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    section{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        padding: 15px;
+        margin-top: 15px;
+    }
+}

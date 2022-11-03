@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body background="../images/background.svg">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-2" href="../index.html">Mg Travel Guide</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mx-auto mb-2 mb-lg-0 fs-4 d-flex p-1">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/amsterdam.html">Amsterdam</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/prague.html">Prague</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/malta.html">Malta</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-dark" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    <main class="formulario">
+        <section class="d-flex justify-content-center p-3 mt-3">
+            <form class="flex-column p-4" style="background-color: lightgrey; width: 25rem; border-radius: 15%;">
+                <div>
+                    <h4 class="text-center p-3">Sign In</h4>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <div class="d-flex justify-content-center">
+                <button type="submit" class="btn btn-dark">Submit</button>
+                </div>
+            </form>
+        </section>
+
+        <div>
+            <h1 class="text-center p-3">Or</h1>
+        </div>
+        <section class="d-flex justify-content-center mt-1 mb-5">
+            <div class="flex-column" style="background-color: lightgrey; border-radius: 15%;">
+                <h3 class="text-center">Register</h3>
+                <div class="mb-3 p-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text mt-1">We'll never share your email with anyone else.</div>
+                    <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn btn-dark mt-3">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-light text-center text-white">
+        <section class="footer-clases">
+
+            <div>
+
+                <h2 class="card-title text-center mb-3 text-bg-light">Contact US</h2>
+
+                <section class="icono-redes">
+
+                    <a class="btn text-white btn-floating m-1" style="background-color: #3b5998;" href="#!"
+                        role="button"><i class="fa fa-facebook-f"></i></a>
+
+
+                    <a class="btn text-white btn-floating m-1" style="background-color: #55acee;" href="#!"
+                        role="button"><i class="fa fa-twitter"></i></a>
+
+
+                    <a class="btn text-white btn-floating m-1" style="background-color: #dd4b39;" href="#!"
+                        role="button"><i class="fa fa-google"></i></a>
+
+
+                    <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac;" href="#!"
+                        role="button"><i class="fa fa-instagram"></i></a>
+
+
+                    <a class="btn text-white btn-floating m-1" style="background-color: #0082ca;" href="#!"
+                        role="button"><i class="fa fa-linkedin"></i></a>
+
+                    <a class="btn text-white btn-floating m-1" style="background-color: #333333;" href="#!"
+                        role="button"><i class="fa fa-github"></i></a>
+                </section>
+
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MG Travel Guide</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+</head>
+
+<body background="./images/background.svg">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-2" href="./index.html">Mg Travel Guide</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mx-auto mb-2 mb-lg-0 fs-4 d-flex p-1">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./pages/formulario.html">Log In</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/amsterdam.html">Amsterdam</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/prague.html">Prague</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/malta.html">Malta</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-dark" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="my-slide mt-1">
+        <section class="container-all">
+
+            <input type="radio" id="1" name="image-slide" hidden />
+            <input type="radio" id="2" name="image-slide" hidden />
+            <input type="radio" id="3" name="image-slide" hidden />
+
+            <div class="slide">
+
+                <div class="item-slide">
+                    <a href="./pages/amsterdam.html"><img src="./images/amsterdam-portada.jpg"
+                            class="card-img img-fluid" alt=""></a>
+
+
+                </div>
+                <div class="item-slide">
+                    <a href="./pages/prague.html"><img src="./images/praga-portada.jpg" class="card-img img-fluid"
+                            alt=""></a>
+
+                </div>
+                <div class="item-slide">
+                    <a href="./pages/malta.html"><img src="./images/malta-portada.jpg" class="card-img img-fluid"
+                            alt=""></a>
+
+                </div>
+            </div>
+
+            <div class="pagination">
+                <label class="pagination-items" for="1">
+                    <img src="./images/amsterdam-portada.jpg" alt="">
+                </label>
+
+                <label class="pagination-items" for="2">
+                    <img src="./images/praga-portada.jpg" alt="">
+                </label>
+
+                <label class="pagination-items" for="3">
+                    <img src="./images/malta-portada.jpg" alt="">
+                </label>
+
+            </div>
+        </section>
+        <div class="card-title text-center mb-3 mt-5 mb-5">
+            <h2>Latest News</h2>
+        </div>
+        <section class="pages-principal">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./images/universal-epic-universe.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Universal's Epic Universe</h5>
+                            <p class="card-text">Universal Orlando Resort anunció la construcción de Universal’s Epic
+                                Universe.</p>
+                            <p class="card-text"><small class="text-muted">Orlando, Florida, EE.UU</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./images/universal-tokio.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Harry Potter Park</h5>
+                            <p class="card-text">Tokio abrirá un parque temático sobre Harry Potter en 2023.</p>
+                            <p class="card-text"><small class="text-muted">Tokio, Japan</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-light text-center text-white">
+        <section class="footer-clases">
+
+            <div>
+
+                <h2 class="card-title text-center mb-3 text-bg-light">Contact US</h2>
+
+                <section class="icono-redes">
+
+                    <a class="btn text-white btn-floating m-1" style="background-color: #3b5998;" href="#!"
+                        role="button"><i class="fa fa-facebook-f"></i></a>
+
+
+                    <a class="btn text-white btn-floating m-1" style="background-color: #55acee;" href="#!"
+                        role="button"><i class="fa fa-twitter"></i></a>
+
+
+                    <a class="btn text-white btn-floating m-1" style="background-color: #dd4b39;" href="#!"
+                        role="button"><i class="fa fa-google"></i></a>
+
+
+                    <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac;" href="#!"
+                        role="button"><i class="fa fa-instagram"></i></a>
+
+
+                    <a class="btn text-white btn-floating m-1" style="background-color: #0082ca;" href="#!"
+                        role="button"><i class="fa fa-linkedin"></i></a>
+
+                    <a class="btn text-white btn-floating m-1" style="background-color: #333333;" href="#!"
+                        role="button"><i class="fa fa-github"></i></a>
+                </section>
+
+            </div>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
