@@ -1,3 +1,14 @@
 .formulario {
     margin-top: 10px;
-}
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        section{
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            padding: 15px;
+            margin-top: 15px;
+        }
+    }
