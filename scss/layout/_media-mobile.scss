@@ -9,9 +9,14 @@
         flex-direction: row;
         justify-content: center;
     }
-    .container-fluid {
+    .caja1 {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        img{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
     }
     .container {
         display:flex;

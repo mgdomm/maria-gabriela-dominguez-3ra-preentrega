@@ -8,44 +8,53 @@
     <meta name="author" content="Maria Gabriela Dominguez">
     <meta name="description" content="Login. I tell you stories and anecdotes of my travels, and I share recommendations, tips, places to eat and places to see.">
     <title>Log In | MG Travel Page</title>
+    <link rel="shortcut icon" href="../images/tituo.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
-<body background="../images/background.svg">
-    <header>
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand fs-2" href="../index.html">Mg Travel Guide</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mx-auto mb-2 mb-lg-0 fs-4 d-flex p-1">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/amsterdam.html">Amsterdam</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/prague.html">Prague</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/malta.html">Malta</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-dark" type="submit">Search</button>
-                    </form>
-                </div>
+<body>
+    <header class="mb-0">
+        <div class="caja-header">
+            <div class="foto-header">
+                <img src="../images/header.png" alt="foto-header">
             </div>
-        </nav>
+            <nav class="navbar navbar-dark navbar-expand-lg mt-0">
+                <div class="caja1">
+                    <a class="navbar-brand fs-2" href="../index.html">Mg Travel Guide</a>
+                    <img src="../images/lo.png" alt="logo-pagina">
+                    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mx-auto mb-2 mb-lg-0 fs-4 d-flex p-1 ">
+                            <li class="nav-item">
+                                <a class="nav-link  text-white" aria-current="page" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="./amsterdam.html">Amsterdam</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="./prague.html">Prague</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="./malta.html">Malta</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-light" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
         <main class="formulario">
             <section class="d-flex justify-content-center p-3 mt-3">
                 <form class="flex-column p-4" style="background-color: lightgrey; width: 25rem; border-radius: 15%;">
@@ -72,7 +81,7 @@
             </section>
 
             <div>
-                <h1 class="text-center p-3">Or</h1>
+                <h1 class="text-center text-white p-3">Or</h1>
             </div>
             <section class="d-flex justify-content-center mt-1 mb-5">
                 <div class="flex-column" style="background-color: lightgrey; border-radius: 15%;">

@@ -2,6 +2,11 @@
 @import "./layout/header";
 @import "./layout/main-index";
 @import "./layout/main-pages";
+@import "./layout/main-formulario";
 @import "./layout/main-footer";
 @import "./layout/media-tablet";
 @import "./layout/media-mobile";
+
+body {
+    background-color: rgb(0, 0, 0);
+}

@@ -1,4 +1,22 @@
-@media only screen and (max-width: 985px) {
+@media only screen and (max-width: 1200px) {
+    header {
+        width: 100%;
+        height: 100%;
+        
+    }
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: stretch;
+        width: 100%;
+        height: 100%;
+        ;
+    }
+
+    .nav-link{
+        font-size: medium;
+    }
     .main {
     display: flex;
     flex-direction: column;
@@ -9,9 +27,14 @@
         flex-direction: row;
         justify-content: center;
     }
-    .container-fluid {
+
+    .caja1 {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        img{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
     }
-    
 }
