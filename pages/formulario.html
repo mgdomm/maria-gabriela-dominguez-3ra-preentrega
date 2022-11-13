@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Maria Gabriela Dominguez">
-    <meta name="description" content="Login. I tell you stories and anecdotes of my travels, and I share recommendations, tips, places to eat and places to see.">
+    <meta name="description"
+        content="Login. I tell you stories and anecdotes of my travels, and I share recommendations, tips, places to eat and places to see.">
     <title>Log In | MG Travel Page</title>
     <link rel="shortcut icon" href="../images/tituo.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -22,119 +23,120 @@
                 <img src="../images/header.png" alt="foto-header">
             </div>
             <nav class="navbar navbar-dark navbar-expand-lg mt-0">
-                <div class="caja1">
-                    <a class="navbar-brand fs-2" href="../index.html">Mg Travel Guide</a>
-                    <img src="../images/lo.png" alt="logo-pagina">
-                    
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mx-auto mb-2 mb-lg-0 fs-4 d-flex p-1 ">
-                            <li class="nav-item">
-                                <a class="nav-link  text-white" aria-current="page" href="../index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link " href="./amsterdam.html">Amsterdam</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link " href="./prague.html">Prague</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link " href="./malta.html">Malta</a>
-                            </li>
-                        </ul>
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-light" type="submit">Search</button>
-                        </form>
+                <div class="caja1 container-fluid">
+                    <div>
+                        <a class="navbar-brand fs-2" href="../index.html">Mg Travel Guide</a>
+                        <img src="../images/lo.png" alt="logo-pagina">
+                    </div>
+                    <div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mx-auto mb-2 mb-lg-0 fs-4 d-flex p-1 ">
+                                <li class="nav-item">
+                                    <a class="nav-link  text-white" aria-current="page" href="../index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="./amsterdam.html">Amsterdam</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="./prague.html">Prague</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="./malta.html">Malta</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex buscar" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-light" type="submit">Search</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </nav>
         </div>
     </header>
-        <main class="formulario">
-            <section class="d-flex justify-content-center p-3 mt-3">
-                <form class="flex-column p-4" style="background-color: lightgrey; width: 25rem; border-radius: 15%;">
-                    <div>
-                        <h4 class="text-center p-3">Sign In</h4>
+    <main class="formulario">
+        <section class=" justify-content-center p-3">
+            <form class=" form1 p-4">
+                <div>
+                    <h4 class="text-center text-white p-3">Sign In</h4>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label text-white">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text text-white">We'll never share your email with anyone else.
                     </div>
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label text-white">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label text-white" for="exampleCheck1">Check me out</label>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn btn-dark">Submit</button>
+                </div>
+            </form>
+            <form background="../images/background1.jpg" class="form2 flex-column p-4">
+                <div>
+                    <h4 class="text-center text-white p-3">Register</h4>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label text-white">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text text-white">We'll never share your email with anyone else.
                     </div>
-                    <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                    </div>
-                    <div class="d-flex justify-content-center">
-                        <button type="submit" class="btn btn-dark">Submit</button>
-                    </div>
-                </form>
-            </section>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn btn-dark mt-3">Sign Up</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="bg-light text-center text-white">
+        <section class="footer-clases">
 
             <div>
-                <h1 class="text-center text-white p-3">Or</h1>
+
+                <h2 class="card-title text-center mb-3 text-bg-light">Contact US</h2>
+
+                <section class="icono-redes">
+
+                    <a class="btn text-white btn-floating m-1" style="background-color: #3b5998;"
+                        href="https://es-es.facebook.com/" role="button"><i class="fa fa-facebook-f"></i></a>
+
+
+                    <a class="btn text-white btn-floating m-1" style="background-color: #55acee;"
+                        href="https://twitter.com/" role="button"><i class="fa fa-twitter"></i></a>
+
+
+                    <a class="btn text-white btn-floating m-1" style="background-color: #dd4b39;"
+                        href="https://google.com/" role="button"><i class="fa fa-google"></i></a>
+
+
+                    <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac;"
+                        href="https://www.instagram.com/?hl=es" role="button"><i class="fa fa-instagram"></i></a>
+
+
+                    <a class="btn text-white btn-floating m-1" style="background-color: #0082ca;"
+                        href="https://es.linkedin.com/" role="button"><i class="fa fa-linkedin"></i></a>
+
+                    <a class="btn text-white btn-floating m-1" style="background-color: #333333;"
+                        href="https://github.com/" role="button"><i class="fa fa-github"></i></a>
+                </section>
+
             </div>
-            <section class="d-flex justify-content-center mt-1 mb-5">
-                <div class="flex-column" style="background-color: lightgrey; border-radius: 15%;">
-                    <h3 class="text-center">Register</h3>
-                    <div class="mb-3 p-3">
-                        <label for="exampleInputEmail1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text mt-1">We'll never share your email with anyone else.</div>
-                        <div class="d-flex justify-content-center">
-                            <button type="submit" class="btn btn-dark mt-3">Sign Up</button>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer class="bg-light text-center text-white">
-            <section class="footer-clases">
-
-                <div>
-
-                    <h2 class="card-title text-center mb-3 text-bg-light">Contact US</h2>
-
-                    <section class="icono-redes">
-
-                        <a class="btn text-white btn-floating m-1" style="background-color: #3b5998;"
-                            href="https://es-es.facebook.com/" role="button"><i class="fa fa-facebook-f"></i></a>
-
-
-                        <a class="btn text-white btn-floating m-1" style="background-color: #55acee;"
-                            href="https://twitter.com/" role="button"><i class="fa fa-twitter"></i></a>
-
-
-                        <a class="btn text-white btn-floating m-1" style="background-color: #dd4b39;"
-                            href="https://google.com/" role="button"><i class="fa fa-google"></i></a>
-
-
-                        <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac;"
-                            href="https://www.instagram.com/?hl=es" role="button"><i class="fa fa-instagram"></i></a>
-
-
-                        <a class="btn text-white btn-floating m-1" style="background-color: #0082ca;"
-                            href="https://es.linkedin.com/" role="button"><i class="fa fa-linkedin"></i></a>
-
-                        <a class="btn text-white btn-floating m-1" style="background-color: #333333;"
-                            href="https://github.com/" role="button"><i class="fa fa-github"></i></a>
-                    </section>
-
-                </div>
-            </section>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-                crossorigin="anonymous"></script>
-        </footer>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+            crossorigin="anonymous"></script>
+    </footer>
 </body>
 
 </html>

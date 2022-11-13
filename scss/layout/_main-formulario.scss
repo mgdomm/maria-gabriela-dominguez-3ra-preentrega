@@ -1,14 +1,35 @@
 .formulario {
-    margin-top: 10px;
+    margin-top: 0x;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items:center;
+        margin: 15px;
         section{
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             align-content: center;
             padding: 15px;
-            margin-top: 15px;
+            align-items: center;
+            
+            
+        }
+        .form1 {
+            background-color: rgb(211, 211, 211);
+            
+            background-image: url(https://images.unsplash.com/photo-1546083381-2bed38b42cac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9uZG9zJTIwZGUlMjBwYW50YWxsYSUyMGRlJTIwbGElMjBjaXVkYWQlMjBkZSUyMGFsdGElMjBkZWZpbmljaSVDMyVCM258ZW58MHx8MHx8&w=1000&q=80);
+            opacity: 3;
+            width: 100%;
+            height: 100%; 
+            border-radius: 15%;
+            
+        }
+        .form2{
+            background-color: lightgrey;
+            background-image: url(https://us.123rf.com/450wm/michalbalada/michalbalada1903/michalbalada190300907/134977462-vista-panor%C3%A1mica-del-atardecer-o-el-amanecer-en-las-impresionantes-monta%C3%B1as-de-las-islas-lofoten-nor.jpg?ver=6);
+            margin: 20px;
+            width: 100%;
+            height: 100%; 
+            border-radius: 15%;
         }
     }
