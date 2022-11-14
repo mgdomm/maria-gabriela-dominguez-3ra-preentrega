@@ -159,17 +159,16 @@ input[id="3"]:checked ~ .pagination .pagination-items[for="3"] {
     transform: translate3d(calc(-100% * 2), 0, 0); } }
 
 .noticia {
-  width: 100%;
-  height: 100%; }
+  width: 50%;
+  height: 50%; }
 
 .noticia img {
   width: 100%;
-  height: 100%;
-  margin-left: 0%; }
+  height: 100%; }
 
 .pages-principal {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   width: 70%;
   height: 70%; }
@@ -180,9 +179,7 @@ input[id="3"]:checked ~ .pagination .pagination-items[for="3"] {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100%;
-  margin-left: 0%;
-  margin-right: 0%; }
+  height: 100%; }
 
 .main {
   display: flex;
@@ -284,11 +281,33 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center; }
-    .main nav ul .cartita {
+  .pages-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%; }
+    .pages-principal .cartita {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: center;
-      align-items: center; }
+      align-items: center;
+      width: 100%;
+      height: 100%; }
+    .pages-principal .carta {
+      width: 100%;
+      height: 100%;
+      margin: 0%; }
+      .pages-principal .carta .noticia {
+        width: 100%;
+        height: 100%; }
+      .pages-principal .carta .noticia img {
+        width: 100%;
+        height: 100%; }
+      .pages-principal .carta .noticia1 {
+        width: 100%;
+        height: 100%; }
   .caja1 {
     display: flex;
     flex-direction: column;
@@ -297,7 +316,7 @@ footer {
       margin-left: 10px;
       margin-right: 10px; } }
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 380px) {
   header, header .caja-header nav {
     width: 100%;
     height: 100%;
@@ -343,38 +362,33 @@ footer {
         justify-content: space-evenly; }
       header .caja-header img {
         width: 50px;
-        height: 50px; } }
-
-.main {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  .main nav ul {
+        height: 50px; }
+  .main {
     display: flex;
-    flex-direction: row;
-    justify-content: center; }
-
-.pages-principal {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  max-height: 100%;
-  max-width: auto; }
-
-.container {
-  display: flex;
-  flex-direction: column; }
-
-.cartita {
-  display: flex;
-  flex-direction: column; }
-
-.formulario section {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  padding: 15px;
-  align-items: center; }
+    flex-direction: column;
+    align-items: center; }
+    .main nav ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: center; }
+    .main .pages-principal {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      max-height: 100%;
+      max-width: 100%; }
+    .main .container {
+      display: flex;
+      flex-direction: column; }
+    .main .cartita {
+      display: flex;
+      flex-direction: column; }
+    .main .formulario section {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      padding: 15px;
+      align-items: center; } }
 
 body {
   background-color: black; }
