@@ -1,16 +1,13 @@
 @media only screen and (max-width: 980px) {
     header {
-        width: 100%;
-        height: 100%;
+        @include tamaño-img;
         
     
     .navbar {
-        display: flex;
-        flex-direction: row;
+        @include  propiedades-flex;
         align-items: stretch;
         justify-content: stretch;
-        width: 100%;
-        height: 100%;
+        @include tamaño-img;
         ;
     }
 
@@ -19,14 +16,12 @@
     }
 }
     .main {
-    display: flex;
-    flex-direction: column;
+        @include  propiedades-column;
     align-items: center;
     justify-content: center;
 
     nav ul {
-        display: flex;
-        flex-direction: row;
+        @include  propiedades-flex;
         justify-content: center;
         .foto-texto{
             justify-content: center;
@@ -36,53 +31,43 @@
     }
 
     .formulario section{
-        display: flex;
-        flex-direction: column;
+        @include  propiedades-column;
     }
     .pages-principal{
-    display: flex;
-    flex-direction: column;
+        @include  propiedades-column;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100%;
+    @include tamaño-img;
     
     .cartita{
-        display: flex;
-        flex-direction: column ;
+        @include  propiedades-column;
         justify-content: center;
         align-items: center;
-        width: 100%;
-        height: 100%;
+        @include tamaño-img;
     }
     .carta{
-        width: 100%;
-        height: 100%;
+        @include tamaño-img;
         margin: 0%;
     
     .noticia{
-        width: 100%;
-        height: 100%;
+        @include tamaño-img;
         
         
     }
     
     .noticia img{
-        width: 100%;
-        height: 100%;
+        @include tamaño-img;
         
     }
     
     .noticia1{
-        width: 100%;
-        height: 100%;
+        @include tamaño-img;
     }
 }}
 
 
     .caja1 {
-        display: flex;
-        flex-direction: column;
+        @include  propiedades-column;
         align-items: center;
         img{
             margin-left: 10px;

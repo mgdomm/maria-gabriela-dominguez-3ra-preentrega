@@ -8,8 +8,8 @@ header, header .caja-header nav {
   height: 100%;
   display: flex; }
   header .caja-header, header .caja-header nav .caja-header {
-    height: 100%;
     width: 100%;
+    height: 100%;
     overflow: hidden;
     display: flex;
     flex-direction: column; }
@@ -229,7 +229,6 @@ input[id="3"]:checked ~ .pagination .pagination-items[for="3"] {
   .formulario .form1 {
     background-color: lightgray;
     background-image: url(https://images.unsplash.com/photo-1546083381-2bed38b42cac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9uZG9zJTIwZGUlMjBwYW50YWxsYSUyMGRlJTIwbGElMjBjaXVkYWQlMjBkZSUyMGFsdGElMjBkZWZpbmljaSVDMyVCM258ZW58MHx8MHx8&w=1000&q=80);
-    opacity: 3;
     width: 100%;
     height: 100%;
     border-radius: 15%; }
@@ -329,15 +328,15 @@ footer {
     height: 100%;
     display: flex; }
     header .caja-header, header .caja-header nav .caja-header {
-      height: 100%;
       width: 100%;
+      height: 100%;
       overflow: hidden;
       display: flex;
       flex-direction: column; }
       header .caja-header img {
         margin-left: 0%;
-        height: 100%;
-        width: 100%; }
+        width: 100%;
+        height: 100%; }
       header .caja-header nav {
         width: 100%;
         height: 100%;

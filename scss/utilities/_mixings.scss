@@ -1,0 +1,14 @@
+@mixin propiedades-flex {
+    display: flex;
+    flex-direction: row;
+  }
+
+  @mixin propiedades-column{
+    display: flex;
+    flex-direction: column;
+  }
+
+@mixin tamaño-img {
+    width: 100%;
+    height: 100%;    
+}

@@ -3,14 +3,12 @@ footer {
     height: auto;
 }
 .footer-clases {
-    display: flex;
-    flex-direction: column;
+    @include propiedades-column;
     justify-content: baseline;
     padding: 0;
     margin: 0;
     div {
-        display: flex;
-        flex-direction: column;
+        @include propiedades-column;
         justify-content: center;
     }
 }

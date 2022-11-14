@@ -1,12 +1,10 @@
 .main {
-    display: flex;
-    flex-direction: row;
+    @include  propiedades-flex;
     margin-top: 0px;
     margin-bottom: 10px;
     background-color: black;
     nav ul{
-        display: flex;
-        flex-direction: column;
+        @include  propiedades-column;
         padding: 15px;
         align-items: center;
     }
@@ -14,8 +12,7 @@
         max-width: 2000px;
     }
     section {
-        display: flex;
-        flex-direction: column;
+        @include  propiedades-column;
     }
    
 }

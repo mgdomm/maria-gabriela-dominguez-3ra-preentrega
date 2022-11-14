@@ -1,16 +1,13 @@
 header {
-        width: 100%;
-        height: 100%;
+        @include tamaño-img;
         display: flex;
         
         
 
         .caja-header{
-                height: 100%;
-                width: 100%;
+                @include tamaño-img;
                 overflow: hidden;
-                display: flex;
-                flex-direction: column;
+                @include propiedades-column;
                 img {
                 margin-left:0%;       
                 };
@@ -19,14 +16,12 @@ header {
                 background-color: rgb(0, 0, 0);
         }
         .foto-header{
-                width: 100%;
-                height: 100%;
+                @include tamaño-img;
                 margin-right: 0%;
         }
 
         .foto-header img{
-                width: 100%;
-                height: 100%;
+                @include tamaño-img;
         }
         
 
@@ -53,10 +48,8 @@ header {
 }
 
 .caja1 {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        height: 100%;
+        @include propiedades-flex;
+        @include tamaño-img;
         margin-left: 50px;
         margin-right: 50px;
         align-items: center;
@@ -66,6 +59,5 @@ header {
         img {
                 width: 50px;
                 height: 50px;
-               
         }
 }
